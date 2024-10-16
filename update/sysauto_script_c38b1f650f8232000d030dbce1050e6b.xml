@@ -5,6 +5,7 @@
         <condition/>
         <conditional>false</conditional>
         <entered_time/>
+        <max_drift/>
         <name>Find Overdue NeedIt Tasks</name>
         <offset/>
         <offset_type/>
@@ -52,4 +53,15 @@ while(overdueNITasks.next()){
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>c38b1f650f8232000d030dbce1050e6b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 02:39:27</sys_created_on>
+        <sys_id>60fa47fcc31d9210111c3d0ed40131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 02:39:27</sys_updated_on>
+        <table>sysauto_script</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
